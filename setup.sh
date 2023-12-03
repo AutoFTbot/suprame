@@ -42,7 +42,7 @@ PERMISSION () {
     if [ "$MYIP" = "$IZIN" ]; then
     Bloman
     else
-    res="izin ditolak!"
+    res="Permission Denied!"
     fi
     BURIQ
 }

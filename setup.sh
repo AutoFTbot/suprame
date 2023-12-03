@@ -32,7 +32,7 @@ CekTwo=$(cat /etc/.$Name.ini)
         res="Expired"
     fi
 else
-res="Izin Diterima..."
+res="Permission Accepted..."
 fi
 }
 
@@ -42,7 +42,7 @@ PERMISSION () {
     if [ "$MYIP" = "$IZIN" ]; then
     Bloman
     else
-    res="Izin ditolak!"
+    res="izin ditolak!"
     fi
     BURIQ
 }
